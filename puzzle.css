@@ -1,37 +1,34 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    
 }
-#tabla{
+
+#table{
     width: 300px;
     height: 300px;
     border: 2px solid green;
-
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-#tabla img{
+#table img {
     width: 98px;
     height: 98px;
     border: 0.5px solid lightblue;
 }
 
-#delovi{
+#pieces {
     width: 900px;
     height: 80px;
     border: 2px solid green;
-
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-#delovi img{
+#pieces img {
     width: 98px;
     height: 98px;
     border: 0.5px solid lightblue;
 }
-
