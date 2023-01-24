@@ -29,7 +29,7 @@ const initTable = () => {
 
 const initPieces = () => {
     const randomizedOrderOfPieces = getRandomizedOrderOfPieces()
-    for (let i = 0; i <randomizedOrderOfPieces.length; i++) {
+    for (let i = 0; i < randomizedOrderOfPieces.length; i++) {
         let tile = document.createElement("img")
         tile.src= "./materijal/" + randomizedOrderOfPieces[i] + ".jpg"
 
