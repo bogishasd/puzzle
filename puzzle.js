@@ -1,6 +1,6 @@
 const rowsNumber = 3
 const columnsNumber = 3
-const SECOND = 1000
+const second = 1000
 
 let currTile
 let otherTile
@@ -84,7 +84,7 @@ const initTimer = () => {
         if (!timeRemaining) {
             showConfirmDialog()
         }
-    }, SECOND)
+    }, second)
 }
 
 const startGame = () => {
